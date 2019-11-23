@@ -59,8 +59,18 @@
 	font-family: "微軟正黑體";
 	text-align: center;
 }
-
-.
+.aa{
+	font-family: 'Alata', sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	color:white;
+	padding-top:30px;
+}
+.bb{
+	font-family: Microsoft JhengHei;
+	font-size: 20px;
+	color:white;
+}
 /*about結束*/
 /*school*/
 .school-font-01{
