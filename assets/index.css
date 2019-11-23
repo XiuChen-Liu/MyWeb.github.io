@@ -1,20 +1,71 @@
+/*表單*/
 .logo-font{
 	font-family: 'Fredoka One', cursive;
-	font-size: 50px;
+	font-size: 30px;
 }
 .nav-font{
 	font-family:"微軟正黑體";
 	font-size: 20px;
 	font-weight: bold;
-	padding-left:50px;
+	padding-left: 50px;
 }
-.aboutme-bg{
-	background-color:#D5D5D5;
+.nav-ul{
+	position: relative;
+	left: 600px;
 }
-.aboutme-font{
+
+/*表單結束*/
+/*about*/
+.about-img{
+	position: relative;
+	top:100px;
+	left:200px;
+	width: 400px;
+	height: 360px;
+}
+.about-font{
+	padding-top: 40px;
+}
+.about01{
 	font-family: "微軟正黑體";
-	font-size: 20px;
 	font-weight: bold;
-	color:white;
+	font-size: 40px;
+}
+.about02{
+	font-size:20px;
+	font-weight: bold;
+}
+.about-ul-01{
+	position: relative;
+	left:650px;
+	bottom:300px;
+}
+.about-ul-02{
 	list-style: none;
+	position: relative;
+	left:1000px;
+	bottom:580px;
+}
+.about-icon{
+	padding-top: 30px;
+}
+.about-font-01{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom:50px;
+}
+.about-font-02{
+	font-family: "微軟正黑體";
+	text-align: center;
+}
+
+.
+/*about結束*/
+/*school*/
+.school-font-01{
+	font-family: "微軟正黑體";
+	font-weight: bold;
+	color:#286DA8;
+	text-align: center;
 }
