@@ -2,6 +2,19 @@
 	font-family: 'Fredoka One', cursive;
 	font-size: 50px;
 }
-.header-font{
+.nav-font{
 	font-family:"微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
 	padding-left:50px;
+}
+.aboutme-bg{
+	background-color:#D5D5D5;
+}
+.aboutme-font{
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+	list-style: none;
+}
