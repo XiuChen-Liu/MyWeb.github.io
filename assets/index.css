@@ -1,3 +1,21 @@
+/*特效*/
+.demo {
+	transition : 0.5s;
+}
+.demo {
+	opacity :1;
+}
+.demo:hover {
+	opacity : 1;
+	transform : scale(1.2);
+}
+.card-transform:hover{/*放大變色*/
+	opacity : 1;
+	transform : scale(1.1);
+	background-color: #88BBD6;
+	color:white;
+}
+
 /*表單*/
 .logo-font{
 	font-family: 'Fredoka One', cursive;
@@ -87,8 +105,7 @@
 	height: auto;
 	margin:0 auto;
 	font-size: 0;
-	margin-top: 100px;
-	margin-bottom:50px;
+	margin-top: 50px;
 
 	columns: 3; column-rule: #CDCDCD solid 1px;
 	column-width:500px;
@@ -153,7 +170,7 @@
 /*interest strat*/
 .int-bg{
 	background-color: #88BBD6;
-	margin-top:900px;
+	margin-top:800px;
 	height: 300px;
 	width: 100%;
 	border-radius: 30px;
@@ -195,3 +212,108 @@
 	margin-top: 100px;
 	margin-left:900px;
 }
+/*interest end*/
+/*goal&wish strat*/
+.goal-title{
+	font-family: 'Alata', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color:#02558B;
+	position: absolute;
+	margin-top: 150px;
+	margin-left:220px;
+}
+.card01{
+	position: absolute;
+	margin-top:250px;
+	left:280px;
+}
+.card02{
+	position: absolute;
+	margin-top: 250px;
+	left:600px;
+}
+.card03{
+	position: absolute;
+	margin-top: 250px;
+	left:920px;
+}
+.card-bg{
+	background-color: #88BBD6; 
+}
+.card-word{
+	font-family: "微軟正黑體";
+}
+/*goal & wish end*/
+/*my life*/
+.mylife-title{
+	font-family: 'Alata', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color:#02558B;
+	position: absolute;
+	margin-top:700px;
+	margin-left:700px;
+}
+.photo01{
+	width:300px;
+	height:300px;
+	position: absolute;
+	margin-top:800px;
+	margin-left:180px;
+	border-radius: 30px;
+}
+.photo02{
+	width:300px;
+	height:300px;
+	position: absolute;
+	margin-top:1150px;
+	margin-left:180px;
+	border-radius: 30px;
+}
+.photo03{
+	width:400px;
+	height:300px;
+	position: absolute;
+	margin-top:800px;
+	margin-left:580px;
+	border-radius: 30px;
+}
+.photo04{
+	width:400px;
+	height:300px;
+	position: absolute;
+	margin-top:1150px;
+	margin-left:580px;
+	border-radius: 30px;
+}
+.photo05{
+	width:300px;
+	height:300px;
+	position: absolute;
+	margin-top:800px;
+	margin-left:1050px;
+	border-radius: 30px;
+}
+.photo06{
+	width:300px;
+	height:300px;
+	position: absolute;
+	margin-top:1150px;
+	margin-left:1050px;
+	border-radius: 30px;
+}
+/*my life end*/
+.footer-bg{
+	background-color: #02558B;
+	height: 150px;
+	position: absolute;
+	margin-top: 1700px;
+}
+.footer-word{
+	text-align: center;
+	color:white;
+	margin-top: 50px;
+}
+/*footer end*/
+/*go top*/
