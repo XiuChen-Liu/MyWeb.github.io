@@ -7,7 +7,7 @@
 	font-family:"微軟正黑體";
 	font-size: 20px;
 	font-weight: bold;
-	padding-left: 50px;
+	padding-left:20px;
 }
 .nav-ul{
 	position: relative;
@@ -73,9 +73,79 @@
 }
 /*about結束*/
 /*school*/
-.school-font-01{
-	font-family: "微軟正黑體";
-	font-weight: bold;
-	color:#286DA8;
-	text-align: center;
+.s-p{ 
+	width: 100%;
+	height:auto;
+	background-color:#FFFFFF;
+	float:left;
+	position: relative;
+	z-index:-2;
+
+}
+.s-timeline{
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+	font-size: 0;
+	margin-top: 100px;
+	margin-bottom:50px;
+
+	columns: 3; column-rule: #CDCDCD solid 1px;
+	column-width:500px;
+	width: 100%;
+	column-gap:35px;
+
+}
+.s-box{
+	width: 90%;
+	height: 600px;
+	display: inline-block;
+	color: #5a7169;
+}
+/*左邊介紹*/
+.s-word{
+	padding: 40px 0px;
+	text-align: right;
+}
+.sw1{
+	font-family:'Alata', sans-serif;
+	font-size: 35px;
+	font-weight: bolder;
+	color:#02558B ;
+}
+
+.s-word2{
+	padding: 40px 0px;
+	float: right;
+	font-family: 微軟正黑體;
+}
+.sw-aa{
+	font-size: 25px;
+	margin-top:30px;
+	color:#02558B ; 
+}
+.sw-bb{
+	font-size: 20px;
+	color:#02558B;
+}
+
+.D{
+	width:6px;
+	height:6px;
+	border-radius:100%;
+	position: absolute;
+	margin-left: -20px;
+	background-color:#CDCDCD;
+}
+.D1{
+	margin-top:155px;
+}
+.D2{
+	margin-top:270px;
+}
+.D3{
+	margin-top:385px;
+}
+.D4{
+	margin-top:500px;
 }
