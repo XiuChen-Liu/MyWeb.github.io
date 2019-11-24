@@ -1,0 +1,129 @@
+/*特效*/
+.demo {
+	transition : 0.5s;
+}
+.demo {
+	opacity :1;
+}
+.demo:hover {
+	opacity : 1;
+	transform : scale(1.2);
+}
+.card-transform:hover{/*放大變色*/
+	opacity : 1;
+	transform : scale(1.1);
+	background-color: #88BBD6;
+	color:white;
+}
+.photo-transform:hover{
+	opacity:0.5;
+}
+
+.mask01{
+	position: absolute;
+	margin-top:800px;
+	margin-left:180px;
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+	opacity: 0;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	line-height:280px;
+	color: white;
+	background-color: black;
+}
+.mask02{
+	position: absolute;
+	margin-top:1150px;
+	margin-left:180px;
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+	opacity: 0;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	line-height:280px;
+	color: white;
+	background-color: black;
+}
+.mask03{
+	position: absolute;
+	margin-top:800px;
+	margin-left:580px;
+	width: 400px;
+	height: 300px;
+	border-radius: 30px;
+	opacity: 0;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	line-height:280px;
+	color: white;
+	background-color: black;
+}
+.mask04{
+	position: absolute;
+	margin-top:1150px;
+	margin-left:580px;
+	width: 400px;
+	height: 300px;
+	border-radius: 30px;
+	opacity: 0;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	line-height:280px;
+	color: white;
+	background-color: black;
+}
+.mask05{
+	position: absolute;
+	margin-top:800px;
+	margin-left:1050px;
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+	opacity: 0;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	line-height:280px;
+	color: white;
+	background-color: black;
+}
+.mask06{
+	position: absolute;
+	margin-top:1150px;
+	margin-left:1050px;
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+	opacity: 0;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	line-height:280px;
+	color: white;
+	background-color: black;
+}
+.mask01:hover{
+	opacity: 0.5;
+}
+.mask02:hover{
+	opacity: 0.5;
+}
+.mask03:hover{
+	opacity: 0.5;
+}
+.mask04:hover{
+	opacity: 0.5;
+}
+.mask05:hover{
+	opacity: 0.5;
+}
+.mask06:hover{
+	opacity: 0.5;
+}
