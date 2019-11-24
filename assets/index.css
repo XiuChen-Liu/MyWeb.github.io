@@ -76,7 +76,7 @@
 .s-p{ 
 	width: 100%;
 	height:auto;
-	background-color:#FFFFFF;
+	background-color:*#FFFFFF;
 	float:left;
 	position: relative;
 	z-index:-2;
@@ -148,4 +148,50 @@
 }
 .D4{
 	margin-top:500px;
+}
+/*school end*/
+/*interest strat*/
+.int-bg{
+	background-color: #88BBD6;
+	margin-top:900px;
+	height: 300px;
+	width: 100%;
+	border-radius: 30px;
+}
+.int-word{
+	font-family: 'Alata', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color:#02558B;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 20px;
+}
+.int-basketball{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left:150px;
+}
+.int-globe{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left:400px;
+}
+.int-guitar{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left:650px;
+}
+.int-movie{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left:900px;
 }
